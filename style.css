@@ -1,0 +1,48 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  padding: 0 4rem;
+}
+#page-1 {
+  background: url("Khalkh\ Gol-2.jpg") center center/cover;
+}
+#page-2 {
+  background: url("/Menen\ Tal-2.jpg") center center/cover;
+}
+#page-3 {
+  background: url("/Photo\ \(4\ of\ 4\).jpg") center center/cover;
+}
+#page-4 {
+  background: url("/Photo\ \(5\ of\ 5\).jpg") center center/cover;
+}
+#page-5 {
+  background: url("/Terelj.jpg") center center/cover;
+}
+.page a {
+  padding: 8px 20px;
+  background-color: rgb(80, 101, 119);
+  text-decoration: none;
+  color: wheat;
+  border-radius: 10px;
+  padding: 8px 20px;
+}
+.page a:hover {
+  color: chocolate;
+  background-color: darkslategrey;
+}
+.page p {
+  color: lightblue;
+  background-color: dimgray;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
